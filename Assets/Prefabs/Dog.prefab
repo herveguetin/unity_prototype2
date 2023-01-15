@@ -2881,6 +2881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  isEnemy: 0
 --- !u!114 &4593457281325641733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6243,6 +6244,10 @@ PrefabInstance:
       value: FeedProgress
       objectReference: {fileID: 0}
     - target: {fileID: 6345251225776954964, guid: 60a37ab50aeb449aba443801b45270fa, type: 3}
+      propertyPath: feedDone
+      value: 
+      objectReference: {fileID: 232544639127679581}
+    - target: {fileID: 6345251225776954964, guid: 60a37ab50aeb449aba443801b45270fa, type: 3}
       propertyPath: feedGoal
       value: 3
       objectReference: {fileID: 0}
@@ -6304,6 +6309,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60a37ab50aeb449aba443801b45270fa, type: 3}
+--- !u!1 &232544639127679581 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1284397662975046789, guid: 60a37ab50aeb449aba443801b45270fa, type: 3}
+  m_PrefabInstance: {fileID: 1362676164926654168}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8313337703970219595 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7041336614267248787, guid: 60a37ab50aeb449aba443801b45270fa, type: 3}
